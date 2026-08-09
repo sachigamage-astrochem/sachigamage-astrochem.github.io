@@ -111,11 +111,11 @@ h1 {
 /* ---------- Illustration ---------- */
 
 .hero-art {
-  width: 125%;
+  width: 138%;
   max-width: none;
   display: block;
   object-fit: contain;
-  transform: translateX(-8%);
+  transform: translate(-12%, -4%);
 }
 /* ---------- General sections for later ---------- */
 
@@ -164,8 +164,8 @@ footer {
 
   .hero-grid {
   display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: 40px;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 20px;
   align-items: center;
 }
 
