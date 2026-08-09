@@ -61,7 +61,7 @@ a {
 }
 
 h1 {
-  font-size: clamp(3.2rem, 6vw, 6.6rem);
+  font-size: clamp(2.8rem, 5vw, 5.4rem);
   line-height: 0.98;
   letter-spacing: -0.05em;
   margin: 0 0 22px;
@@ -111,11 +111,12 @@ h1 {
 /* ---------- Illustration ---------- */
 
 .hero-art {
-  width: 100%;
+  width: 125%;
+  max-width: none;
   display: block;
   object-fit: contain;
+  transform: translateX(-8%);
 }
-
 /* ---------- General sections for later ---------- */
 
 .section {
@@ -162,9 +163,11 @@ footer {
   }
 
   .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 35px;
-  }
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 40px;
+  align-items: center;
+}
 
   h1 {
     font-size: clamp(3rem, 13vw, 5rem);
