@@ -287,3 +287,41 @@ footer {
     gap: 26px;
   }
 }
+/* ===== PUBLICATIONS ===== */
+
+.publication-list {
+  max-width: 950px;
+  margin-top: 28px;
+}
+
+.publication-item {
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.publication-item strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.publication-item p {
+  margin: 0 0 6px;
+  color: var(--muted);
+}
+
+.publication-item a,
+.scholar-link a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.publication-item a:hover,
+.scholar-link a:hover {
+  text-decoration: underline;
+}
+
+.scholar-link {
+  margin-top: 24px;
+}
