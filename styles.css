@@ -201,3 +201,27 @@ footer {
     gap: 14px;
   }
 }
+/* ===== FINAL DESKTOP HERO OVERRIDE ===== */
+
+@media (min-width: 851px) {
+
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+  }
+
+  .hero-visual {
+    overflow: visible;
+  }
+
+  .hero-art {
+    width: 105%;
+    max-width: 105%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    transform: translate(0, -4%);
+  }
+
+}
