@@ -347,3 +347,12 @@ footer {
 .contact-links a:hover {
   text-decoration: underline;
 }
+/* ===== ENLARGE HERO ILLUSTRATION ===== */
+
+@media (min-width: 851px) {
+  .hero-art {
+    width: 130%;
+    max-width: 130%;
+    transform: translate(-4%, -4%);
+  }
+}
