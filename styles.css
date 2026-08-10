@@ -235,3 +235,20 @@ footer {
   font-weight: 700;
   margin: 10px 0 16px;
 }
+/* ===== SECTION HEADING STYLE ===== */
+
+.section h2 {
+  font-size: 1.2rem !important;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  margin: 10px 0 16px;
+  max-width: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .section h2 {
+    white-space: normal;
+  }
+}
