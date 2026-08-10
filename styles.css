@@ -115,7 +115,7 @@ h1 {
   max-width: none;
   display: block;
   object-fit: contain;
-  transform: translate(-12%, -4%);
+  transform: translate(-12%, -12%);
 }
 /* ---------- General sections for later ---------- */
 
