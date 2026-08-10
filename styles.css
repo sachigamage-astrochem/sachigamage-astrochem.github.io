@@ -46,8 +46,8 @@ a {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 60px;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
   align-items: center;
 }
 
@@ -111,11 +111,11 @@ h1 {
 /* ---------- Illustration ---------- */
 
 .hero-art {
-  width: 138%;
+  width: 118%;
   max-width: none;
   display: block;
   object-fit: contain;
-  transform: translate(-12%, -12%);
+  transform: translate(0, -5%);
 }
 /* ---------- General sections for later ---------- */
 
