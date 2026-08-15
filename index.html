@@ -56,6 +56,19 @@
   <link rel="stylesheet" href="styles.css">
 
 
+  <!-- Justify body paragraphs while keeping headings and titles unchanged -->
+
+  <style>
+    .intro p,
+    .section-copy p,
+    .research-item p,
+    .publication-item p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  </style>
+
+
   <!-- Structured data for search engines -->
 
   <script type="application/ld+json">
@@ -65,6 +78,10 @@
     "mainEntity": {
       "@type": "Person",
       "name": "Sachindra Gamage",
+      "alternateName": [
+        "Sachi Gamage",
+        "Sachindra S.T. Gamage"
+      ],
       "honorificSuffix": "Ph.D.",
       "url": "https://sachindragamage.com/",
       "sameAs": [
@@ -89,15 +106,17 @@
     }
   }
   </script>
+
+
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Sachindra Gamage",
-  "alternateName": "Sachindra Gamage Research",
-  "url": "https://sachindragamage.com/"
-}
-</script>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Sachindra Gamage",
+    "alternateName": "Sachindra Gamage Research",
+    "url": "https://sachindragamage.com/"
+  }
+  </script>
 
 </head>
 
@@ -595,7 +614,7 @@
   <footer>
 
     <div class="container">
-      © 2026 Sachindra Gamage
+      © 2026 Sachindra Gamage, PhD
     </div>
 
   </footer>
