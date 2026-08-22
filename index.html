@@ -56,9 +56,12 @@
   <link rel="stylesheet" href="styles.css">
 
 
-  <!-- Justify body paragraphs while keeping headings and titles unchanged -->
+  <!-- Page-specific formatting -->
 
   <style>
+
+    /* Justify body paragraphs while keeping headings and titles unchanged */
+
     .intro p,
     .section-copy p,
     .research-item p,
@@ -66,6 +69,47 @@
       text-align: justify;
       text-justify: inter-word;
     }
+
+
+    /* Hero typography */
+
+    h1 {
+      font-size: clamp(2.2rem, 3.2vw, 3rem) !important;
+      line-height: 1.05;
+      letter-spacing: -0.035em;
+    }
+
+    .tagline {
+      font-size: clamp(1.2rem, 1.65vw, 1.5rem) !important;
+      line-height: 1.45;
+    }
+
+
+    /* Move scientific hero illustration upward on desktop */
+
+    @media (min-width: 851px) {
+      .hero-art {
+        transform: translate(-4%, -16%) !important;
+      }
+    }
+
+
+    /* Keep mobile positioning comfortable */
+
+    @media (max-width: 850px) {
+      h1 {
+        font-size: clamp(2.2rem, 9vw, 3rem) !important;
+      }
+
+      .tagline {
+        font-size: 1.25rem !important;
+      }
+
+      .hero-art {
+        transform: none !important;
+      }
+    }
+
   </style>
 
 
